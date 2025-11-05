@@ -42,8 +42,8 @@ export default function Header() {
             transition: 'color 0.3s'
           }}>Contact</a>
           <a 
-            href="/Anuja_S_Nair_Professional_Resume.pdf" 
-            download="Anuja_S_Nair_Professional_Resume.pdf"
+            href="/Anuja_S_Nair_Updated_Resume.pdf" 
+            download="Anuja_S_Nair_Updated_Resume.pdf"
             style={{
               backgroundColor: '#06b6d4',
               color: 'white',
