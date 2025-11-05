@@ -28,9 +28,9 @@ export default function Header() {
         </div>
         <div style={{
           display: 'flex',
-          gap: '32px'
+          gap: '32px',
+          alignItems: 'center'
         }}>
-
           <a href="#projects" style={{
             color: '#d1d5db',
             textDecoration: 'none',
@@ -41,6 +41,24 @@ export default function Header() {
             textDecoration: 'none',
             transition: 'color 0.3s'
           }}>Contact</a>
+          <a 
+            href="/Anuja_S_Nair_Professional_Resume.pdf" 
+            download="Anuja_S_Nair_Professional_Resume.pdf"
+            style={{
+              backgroundColor: '#06b6d4',
+              color: 'white',
+              padding: '8px 16px',
+              borderRadius: '6px',
+              textDecoration: 'none',
+              fontSize: '14px',
+              fontWeight: '500',
+              transition: 'background-color 0.3s'
+            }}
+            onMouseEnter={(e) => e.target.style.backgroundColor = '#0891b2'}
+            onMouseLeave={(e) => e.target.style.backgroundColor = '#06b6d4'}
+          >
+            Download CV
+          </a>
         </div>
       </nav>
     </header>
